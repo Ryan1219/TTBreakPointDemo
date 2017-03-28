@@ -1,1 +1,1 @@
-1,这个一个基于NSURLSessionDataTask\NSURLSessionDataDelegate\NSOutputStream 实现离线和断点下载的demo
+这是一个关于断点下载的小demo
