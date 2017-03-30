@@ -1,1 +1,2 @@
-断点下载
+1，基于NSURLSessionDataTask\NSOutputStream\NSURLSessionDataDelegate来做离线断点下载
+2，使用MD5，使用ULR来做文件路径

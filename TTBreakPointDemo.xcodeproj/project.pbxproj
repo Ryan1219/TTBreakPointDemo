@@ -14,6 +14,7 @@
 		42560EBB1E889F73006A21D0 /* TTBreakPointDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 42560EB91E889F73006A21D0 /* TTBreakPointDemo.xcdatamodeld */; };
 		42560EBD1E889F74006A21D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42560EBC1E889F74006A21D0 /* Assets.xcassets */; };
 		42560EC01E889F74006A21D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42560EBE1E889F74006A21D0 /* LaunchScreen.storyboard */; };
+		428636DC1E89FDA00060AA9D /* MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 428636DB1E89FDA00060AA9D /* MD5.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		42560EBC1E889F74006A21D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42560EBF1E889F74006A21D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42560EC11E889F75006A21D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		428636DA1E89FDA00060AA9D /* MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MD5.h; sourceTree = "<group>"; };
+		428636DB1E89FDA00060AA9D /* MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MD5.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,7 @@
 				42560EB11E889F70006A21D0 /* AppDelegate.m */,
 				42560EB31E889F70006A21D0 /* ViewController.h */,
 				42560EB41E889F70006A21D0 /* ViewController.m */,
+				428636D91E89FD9F0060AA9D /* MD5 */,
 				42560EB61E889F71006A21D0 /* Main.storyboard */,
 				42560EBC1E889F74006A21D0 /* Assets.xcassets */,
 				42560EBE1E889F74006A21D0 /* LaunchScreen.storyboard */,
@@ -80,6 +84,15 @@
 				42560EAE1E889F6F006A21D0 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		428636D91E89FD9F0060AA9D /* MD5 */ = {
+			isa = PBXGroup;
+			children = (
+				428636DA1E89FDA00060AA9D /* MD5.h */,
+				428636DB1E89FDA00060AA9D /* MD5.m */,
+			);
+			path = MD5;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +169,7 @@
 			files = (
 				42560EB51E889F71006A21D0 /* ViewController.m in Sources */,
 				42560EBB1E889F73006A21D0 /* TTBreakPointDemo.xcdatamodeld in Sources */,
+				428636DC1E89FDA00060AA9D /* MD5.m in Sources */,
 				42560EB21E889F70006A21D0 /* AppDelegate.m in Sources */,
 				42560EAF1E889F6F006A21D0 /* main.m in Sources */,
 			);
@@ -316,6 +330,7 @@
 				42560EC61E889F75006A21D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
